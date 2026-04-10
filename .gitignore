@@ -1,0 +1,71 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual envs
+.venv/
+.venv_gz/
+venv/
+
+# =========================
+# Build / Temp
+# =========================
+build/
+dist/
+*.egg-info/
+.tmp/
+tmp/
+
+# =========================
+# Runtime artifacts
+# =========================
+runs/
+core
+core.*
+*.stackdump
+
+# Keep roadmaps and reports tracked when explicitly needed
+# (remove patterns below if you decide to version generated reports)
+
+# =========================
+# Models / weights (large binaries)
+# =========================
+models/*.onnx
+models/*.pt
+models/*.engine
+models/*.trt
+
+# =========================
+# Gazebo / PX4 local caches
+# =========================
+*.ulg
+*.bag
+*.db3
+
+# Local tool metadata
+.codex
+
+# =========================
+# Project-specific caches
+# =========================
+primary-target-selection/pts_resources/

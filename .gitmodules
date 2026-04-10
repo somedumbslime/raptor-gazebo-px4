@@ -1,0 +1,3 @@
+[submodule "primary-target-selection"]
+	path = primary-target-selection
+	url = https://github.com/somedumbslime/primary-target-selection.git
